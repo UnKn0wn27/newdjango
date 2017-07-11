@@ -1,0 +1,29 @@
+.navbar-static-top {
+  margin-bottom: 19px;
+  background-color: #0C4B33;
+  border-color: #116142;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #5a5a5a;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #272727;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent !important;
+}
+
+.navbar-toggle:hover {
+  background-color: #116142 !important;
+}
+
+.navbar-toggle {
+  background-color: #0C4B33 !important;
+}

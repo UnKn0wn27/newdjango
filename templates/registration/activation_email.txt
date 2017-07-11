@@ -1,0 +1,11 @@
+{% load i18n %}
+{% trans "Activate account at" %} {{ site.name }}:
+
+Click the link below to activate account.
+
+http://{{ site.domain }}{% url 'registration_activate' activation_key %}
+http://127.0.0.1:8000/accounts/activate/d55030ccff8b971fb32bf0f625fc1ba0c7009624
+
+{% blocktrans %}Link is valid for {{ expiration_days }} days.{% endblocktrans %}
+
+-Team Unknown
